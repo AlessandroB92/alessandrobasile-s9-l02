@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.Jumbotron {
+  background-color: lightgray;
+  height: 25vh;
+}
