@@ -22,27 +22,27 @@ const AllTheBooks = () => {
 
   return (
     <Container>
-      <h1>Lista dei Libri</h1>
+      <h1>Libreria</h1>
 
-      <Row>
         <h2>Fantasy</h2>
+      <Row id='category'>
         {renderBooks('fantasy')}
       </Row>
 
-      <Row>
         <h2>History</h2>
+      <Row id='category'>
         {renderBooks('history')}
       </Row>
-      <Row>
-        <h2>History</h2>
+        <h2>Horror</h2>
+      <Row id='category'>
         {renderBooks('horror')}
       </Row>
-      <Row>
-        <h2>History</h2>
+        <h2>Sci-fi</h2>
+      <Row id='category'>
         {renderBooks('scifi')}
       </Row>
-      <Row>
-        <h2>History</h2>
+        <h2>Romance</h2>
+      <Row id='category'>
         {renderBooks('romance')}
       </Row>
     </Container>

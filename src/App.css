@@ -40,3 +40,9 @@
   background-color: lightgray;
   height: 25vh;
 }
+
+#category{
+  height: 50vh;
+  overflow-y: scroll;
+  margin: 2em 0em;
+}
