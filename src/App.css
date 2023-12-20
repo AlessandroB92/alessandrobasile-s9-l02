@@ -38,11 +38,33 @@
 }
 .Jumbotron {
   background-color: lightgray;
-  height: 25vh;
 }
 
-#category{
-  height: 50vh;
+.container {
+  height: 100vh;
   overflow-y: scroll;
   margin: 2em 0em;
+  border-radius: 8px;
+  border: 5px solid rgb(62, 28, 28);
+}
+h2 {
+  padding: 15px;
+}
+#search {
+  margin: 10px 0px;
+  padding: 5px 25px;
+}
+.container::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 10px;
+}
+.container::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border: 1px solid #cacaca;
+  background-color: #f1f1f1;
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 10px;
 }

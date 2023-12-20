@@ -15,10 +15,7 @@ function App() {
       <main>
         <AllTheBooks />
       </main>
-      <footer>
-        <MyFooter />
-      </footer>
-
+      <MyFooter />
     </body>
   );
 }
